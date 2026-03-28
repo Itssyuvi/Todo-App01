@@ -1,0 +1,116 @@
+/* Full page background */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f5d7a1, #eacb9b);
+}
+
+/* Main container */
+.logo {
+  width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #1e1e2f, #2c1f1f);
+  border-radius: 20px;
+  border: 3px solid #2f6df6;
+  text-align: center;
+  color: white;
+}
+
+/* Title */
+.text-logo {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Input box */
+.logo input {
+  width: 60%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+/* Add button */
+.logo button {
+  padding: 12px 18px;
+  background-color: #2f6df6;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logo button:hover {
+  background-color: #1d4ed8;
+  color: white;
+}
+
+/* Task list heading */
+.text-lg {
+  text-align: center;
+  color: blueviolet;
+  margin-top: 20px;
+  font-size: 28px;
+}
+
+/* Todo container */
+.todos {
+  margin-top: 20px;
+}
+
+/* Each todo item */
+.todos-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 12px;
+  margin: 10px 0;
+  color: white;
+}
+
+/* Completed task */
+.line-through {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Buttons container */
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+/* Delete button */
+.but {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Edit button */
+.edit {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Bottom stats */
+.footer {
+  margin-top: 20px;
+  border-top: 2px solid #2f6df6;
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+}
